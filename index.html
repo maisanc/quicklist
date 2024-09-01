@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="logo"> <img src="./images/Vector.svg">
+        <img src="./images/quicklist.svg">
+    </div>
+
+    <main>
+        <a href="#"><img src="./images/link button.svg"></a>
+        <h1>This Week's Purchases</h1>
+
+        <form>
+            <input type="text" name="item" id="item" placeholder="Add a new item" required>
+            <button id="add-item" type="submit">Add item</button>
+        </form>
+
+        <ul>
+            <li class="list-container">
+                <input type="checkbox" class="checkbox" value="item lorem ipsum">
+                <p>item lorem ipsum</p>
+
+                <div> <button id="trash"><img src="./images/Frame.svg" alt="trash"></button>
+            </li>
+        </ul>
+
+    </main>
+
+    <footer>
+        <div>
+            <img src="./images/Icon.svg" alt="alert">
+            <span> The item has been removed from the list</span>
+            <button><img src="./images/icon2.svg" alt="close" id="close-footer"></button>
+        </div>
+    </footer>
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
